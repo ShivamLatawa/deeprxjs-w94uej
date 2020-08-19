@@ -2,21 +2,29 @@ import { of, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import {  } from 'rxjs/Observable'
 
-// observer pattern demo
+// ----------- observer pattern demo -----------
 // import './style.css';
 // import './customObservable';
 
-// observable demo
+
+/* ----------- observable demo ----------------- */
 // import './observable';
 
-// pullVsPush demo
+
+/* ------------ pullVsPush demo ---------------- */
 // import './pullVsPush';
 
-// observer demo
+
+/* ------------ observer demo ------------------ */
 // import './observer';
 
-// newsPaper
+
+/* ------------ suscription demo---------------- */
 // import './newsPaper';
 
-// How to create plane obserable
+
+/* ------------ hot-cold demo ------------------ */
+// import './hotVsCold';
+
+
 

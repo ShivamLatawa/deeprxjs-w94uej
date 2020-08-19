@@ -2,7 +2,7 @@ import { of, Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 import {  } from 'rxjs/Observable'
 
-// ----------- observer pattern demo -----------
+/* ----------- observer pattern demo ----------- */
 // import './style.css';
 // import './customObservable';
 
@@ -25,6 +25,3 @@ import {  } from 'rxjs/Observable'
 
 /* ------------ hot-cold demo ------------------ */
 // import './hotVsCold';
-
-
-

@@ -4,7 +4,7 @@ import { CustomObservable } from "./observerPattern";
 const burgerPipeLine = new CustomObservable();
 function addBurger(){
   const burger =  document.querySelector('.burger-body');
-  //console.log(burger);
+  
   burgerPipeLine.subscribe((slice: string) => {
     burger.appendChild(addSlice(slice));
   });
@@ -15,7 +15,9 @@ function addSlice(item){
   tomato.className = item;
   return tomato;
 }
+
 addBurger();
+
 burgerPipeLine.next('tomato');
 burgerPipeLine.next('lettuce');
 burgerPipeLine.next('cheese');

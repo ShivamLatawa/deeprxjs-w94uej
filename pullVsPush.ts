@@ -9,7 +9,7 @@ const y = fooPull.call(this); // same as foo()
 console.log(y);
 
 
-/* -------------------vs -------------------------- */
+/* ------------------- vs -------------------------- */
 
 import { Observable } from 'rxjs';
  
@@ -24,8 +24,3 @@ foo.subscribe(x => {
 foo.subscribe(y => {
   console.log(y);
 });
-
-/*
-1)Subscribing to an Observable is analogous to calling a Function.
-2)Observables are able to deliver values either synchronously or asynchronously.
-*/

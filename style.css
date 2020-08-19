@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+    background: #333;
+}
+
+.chalkboard {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+    color: #fff;
+}
+.subheading{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    color: #fff;
+    
+}
+
+.burger-body{
+    width: 100vh;
+    height: 100vh;
+    max-width: 300px;
+    max-height: 300px;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    
+}
+.bun-1{
+    height: 70px;
+    background: rgba(222, 184, 135, 1);
+    border-radius: 50% 50% 0 0;    
+}
+
+.tomato{
+    background:rgba(255,0, 0, 0.8);
+    padding: 10px;
+    border-radius: 20px;
+  
+}
+
+.lettuce{
+    padding: 10px;
+    border-radius: 20px;
+    background:rgba(0,255, 0, 0.5);
+}
+
+.cheese {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(238, 2555, 0, 0.9);
+}
+
+.meat {
+    padding: 13px;
+    border-radius: 20px;
+    background-color: rgba(139, 69,19, 0.8);
+}
+
+.bun-2 {
+    padding: 20px;
+    background-color: rgba(222, 184, 135, 1);
+    border-radius: 0 0 45% 45%;
+}
+
+
+
+.bun-1 {
+    animation: burger  6s ease-in forwards;
+}
+.tomato {
+    animation: burger  5s ease-in forwards;
+}
+.lettuce {
+    animation: burger  4s ease-in forwards;
+}
+.cheese {
+    animation: burger  3s ease-in forwards;
+}
+.beef-meat {
+    animation: burger  2s ease-in forwards;
+}
+
+.bun-2 {
+    animation: burger 1s ease-in forwards;
+}
+
+
+
+
+
+@keyframes burger { 
+    from { transform: translateY(-1200px);
+
+}
+to {
+    transform: translatey(0);
+}
+
+}
+

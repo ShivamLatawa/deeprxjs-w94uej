@@ -8,7 +8,6 @@ console.log(x);
 const y = fooPull.call(this); // same as foo()
 console.log(y);
 
-
 /* ------------------- vs -------------------------- */
 
 import { Observable } from 'rxjs';
